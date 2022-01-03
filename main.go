@@ -25,7 +25,6 @@ func main() {
 	}
 	text := os.Getenv(EnvSlackMessage)
 	if text == "" {
-		g
 		fmt.Fprintln(os.Stderr, "Message is required")
 		os.Exit(1)
 	}
